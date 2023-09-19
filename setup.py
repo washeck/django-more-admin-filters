@@ -42,7 +42,7 @@ setup(
     packages=find_namespace_packages(exclude=["tests"]),
     include_package_data=True,
     install_requires=[
-        "Django>=2.2,<5.0",
+        "Django>=2.2",
     ],
     classifiers=[
         dev_status,
